@@ -8,7 +8,7 @@ class autoban(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-
+        
 
     @commands.command()
     async def on_member_join(self, member):
